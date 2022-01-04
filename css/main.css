@@ -15,7 +15,7 @@
   background-image: url("../pictures/background.png");
   background-size: cover;
 }
-.btn {
+.btn-outline-light {
   -webkit-appearance: none;
 }
 @media only screen and (max-width: 768px) {
