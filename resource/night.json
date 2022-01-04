@@ -4,49 +4,49 @@
       "seq": 1,
       "name": "超貴消夜1",
       "addr": "大學路五段1號",
-      "img": "../pcitures/night/nt1"
+      "img": "../pictures/night/nt1"
     },
     {
       "seq": 2,
       "name": "超貴消夜2",
       "addr": "大學路五段2號",
-      "img": "../pcitures/night/nt2"
+      "img": "../pictures/night/nt2"
     },
     {
       "seq": 3,
       "name": "超貴消夜3",
       "addr": "大學路五段3號",
-      "img": "../pcitures/night/nt3"
+      "img": "../pictures/night/nt3"
     },
     {
       "seq": 4,
       "name": "超貴消夜4",
       "addr": "大學路五段4號",
-      "img": "../pcitures/night/nt4"
+      "img": "../pictures/night/nt4"
     },
     {
       "seq": 5,
       "name": "超貴消夜5",
       "addr": "大學路五段5號",
-      "img": "../pcitures/night/nt5"
+      "img": "../pictures/night/nt5"
     },
     {
       "seq": 6,
       "name": "超貴消夜6",
       "addr": "大學路五段6號",
-      "img": "../pcitures/night/nt6"
+      "img": "../pictures/night/nt6"
     },
     {
       "seq": 7,
       "name": "超貴消夜7",
       "addr": "大學路五段7號",
-      "img": "../pcitures/night/nt7"
+      "img": "../pictures/night/nt7"
     },
     {
       "seq": 8,
       "name": "超貴消夜8",
       "addr": "大學路五段8號",
-      "img": "../pcitures/night/nt8"
+      "img": "../pictures/night/nt8"
     }
   ],
   "success": true

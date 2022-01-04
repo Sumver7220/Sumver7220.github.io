@@ -4,49 +4,49 @@
       "seq": 1,
       "name": "超好喝飲料1",
       "addr": "大學路三段1號",
-      "img": "../pcitures/drink/dk1"
+      "img": "../pictures/drink/dk1"
     },
     {
       "seq": 2,
       "name": "超好喝飲料2",
       "addr": "大學路三段2號",
-      "img": "../pcitures/drink/dk2"
+      "img": "../pictures/drink/dk2"
     },
     {
       "seq": 3,
       "name": "超好喝飲料3",
       "addr": "大學路三段3號",
-      "img": "../pcitures/drink/dk3"
+      "img": "../pictures/drink/dk3"
     },
     {
       "seq": 4,
       "name": "超好喝飲料4",
       "addr": "大學路三段4號",
-      "img": "../pcitures/drink/dk4"
+      "img": "../pictures/drink/dk4"
     },
     {
       "seq": 5,
       "name": "超好喝飲料5",
       "addr": "大學路三段5號",
-      "img": "../pcitures/drink/dk5"
+      "img": "../pictures/drink/dk5"
     },
     {
       "seq": 6,
       "name": "超好喝飲料6",
       "addr": "大學路三段6號",
-      "img": "../pcitures/drink/dk6"
+      "img": "../pictures/drink/dk6"
     },
     {
       "seq": 7,
       "name": "超好喝飲料7",
       "addr": "大學路三段7號",
-      "img": "../pcitures/drink/dk7"
+      "img": "../pictures/drink/dk7"
     },
     {
       "seq": 8,
       "name": "超好喝飲料8",
       "addr": "大學路三段8號",
-      "img": "../pcitures/drink/dk8"
+      "img": "../pictures/drink/dk8"
     }
   ],
   "success": true

@@ -4,49 +4,49 @@
       "seq": 1,
       "name": "超肥胖零食1",
       "addr": "大學路四段1號",
-      "img": "../pcitures/snack/sk1"
+      "img": "../pictures/snack/sk1"
     },
     {
       "seq": 2,
       "name": "超肥胖零食2",
       "addr": "大學路四段2號",
-      "img": "../pcitures/snack/sk2"
+      "img": "../pictures/snack/sk2"
     },
     {
       "seq": 3,
       "name": "超肥胖零食3",
       "addr": "大學路四段3號",
-      "img": "../pcitures/snack/sk3"
+      "img": "../pictures/snack/sk3"
     },
     {
       "seq": 4,
       "name": "超肥胖零食4",
       "addr": "大學路四段4號",
-      "img": "../pcitures/snack/sk4"
+      "img": "../pictures/snack/sk4"
     },
     {
       "seq": 5,
       "name": "超肥胖零食5",
       "addr": "大學路四段5號",
-      "img": "../pcitures/snack/sk5"
+      "img": "../pictures/snack/sk5"
     },
     {
       "seq": 6,
       "name": "超肥胖零食6",
       "addr": "大學路四段6號",
-      "img": "../pcitures/snack/sk6"
+      "img": "../pictures/snack/sk6"
     },
     {
       "seq": 7,
       "name": "超肥胖零食7",
       "addr": "大學路四段7號",
-      "img": "../pcitures/snack/sk7"
+      "img": "../pictures/snack/sk7"
     },
     {
       "seq": 8,
       "name": "超肥胖零食8",
       "addr": "大學路四段8號",
-      "img": "../pcitures/snack/sk8"
+      "img": "../pictures/snack/sk8"
     }
   ],
   "success": true

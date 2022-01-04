@@ -49,8 +49,12 @@ function show(data) {
   arryData.forEach((x) => {
     document.getElementById("list_content").innerHTML +=
       '<div class="col mb-5">' +
-      '<div class="card h-60">' +
-      '<img class="card-img-top" src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg" alt="..." /> ' +
+      '<div class="card h-100">' +
+      '<div class="box">' +
+      '<img class="card-img-top" src="' +
+      x.img +
+      '" alt="..." /> ' +
+      "</div>" +
       '<div class="card-body p-4">' +
       '<div class="text-center">' +
       '<h5 class="fw-bolder">' +

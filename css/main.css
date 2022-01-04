@@ -15,6 +15,7 @@
   background-image: url("../pictures/background.png");
   background-size: cover;
 }
+
 @media only screen and (max-width: 768px) {
   #second h5 {
     margin-bottom: 50px;
