@@ -1,0 +1,30 @@
+.kv {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../pictures/background.png");
+  background-size: cover;
+}
+.kv .text {
+  text-align: center;
+  color: white;
+}
+.kv .button {
+  text-align: center;
+}
+.intro {
+  background-image: url("../pictures/background.png");
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  #second h5 {
+    margin-bottom: 50px;
+  }
+  #latest .col-md-4 {
+    margin-bottom: 60px;
+  }
+  footer h4 {
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+  }
+}
