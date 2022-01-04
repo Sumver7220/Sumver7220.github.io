@@ -15,19 +15,7 @@
   background-image: url("../pictures/background.png");
   background-size: cover;
 }
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 40%;
-  position: relative;
-  height: 0;
-}
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 80%;
-  width: 80%;
-  position: absolute;
-}
+
 @media only screen and (max-width: 768px) {
   #second h5 {
     margin-bottom: 50px;

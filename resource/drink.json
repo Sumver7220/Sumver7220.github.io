@@ -1,52 +1,207 @@
 {
   "data": [
     {
+      "seq": 0,
+      "name": "NO.1 紅茶兵",
+      "addr": "龍潭路3-5號",
+      "desc": "好吃",
+      "img": "../pictures/drink/dk00.jpg",
+      "menu": "../pictures/drink/menu/dkmenu00.jpg"
+    },
+    {
       "seq": 1,
-      "name": "超好喝飲料1",
-      "addr": "大學路三段1號",
-      "img": "../pictures/drink/dk1"
+      "name": "角伍茶舖",
+      "addr": "龍潭路2號",
+      "desc": "好吃",
+      "img": "../pictures/drink/dk01.jpg",
+      "menu": "../pictures/drink/menu/dkmenu01.jpg"
     },
     {
       "seq": 2,
-      "name": "超好喝飲料2",
-      "addr": "大學路三段2號",
-      "img": "../pictures/drink/dk2"
+      "name": "TEA'S 原味",
+      "addr": "龍潭路14-12號",
+      "desc": "真的很好吃",
+      "img": "../pictures/drink/dk02.jpg",
+      "menu": "../pictures/drink/menu/dkmenu02.jpg"
     },
     {
       "seq": 3,
-      "name": "超好喝飲料3",
-      "addr": "大學路三段3號",
-      "img": "../pictures/drink/dk3"
+      "name": "善水堂手作飲品專賣",
+      "addr": "龍潭北路6號",
+      "desc": "真的很好吃",
+      "img": "../pictures/drink/dk03.jpg",
+      "menu": "../pictures/drink/menu/dkmenu03.jpg"
     },
     {
       "seq": 4,
-      "name": "超好喝飲料4",
-      "addr": "大學路三段4號",
-      "img": "../pictures/drink/dk4"
+      "name": "紅茶洋行-斗六府文店",
+      "addr": "府文路107號",
+      "desc": "真的很好吃",
+      "img": "../pictures/drink/dk04.jpg",
+      "menu": "../pictures/drink/menu/dkmenu04.jpg"
     },
     {
       "seq": 5,
-      "name": "超好喝飲料5",
-      "addr": "大學路三段5號",
-      "img": "../pictures/drink/dk5"
+      "name": "圓子玖舖-雲林斗六店",
+      "addr": "斗六市中山路595號",
+      "desc": "真的很好吃",
+      "img": "../pictures/drink/dk05.jpg",
+      "menu": "../pictures/drink/menu/dkmenu05.jpg"
     },
     {
       "seq": 6,
-      "name": "超好喝飲料6",
-      "addr": "大學路三段6號",
-      "img": "../pictures/drink/dk6"
+      "name": "岐也紅茶-斗六店",
+      "addr": "中山路419號",
+      "desc": "真的很好吃",
+      "img": "../pictures/drink/dk06.jpg",
+      "menu": "../pictures/drink/menu/dkmenu06.jpg"
     },
     {
       "seq": 7,
-      "name": "超好喝飲料7",
-      "addr": "大學路三段7號",
-      "img": "../pictures/drink/dk7"
+      "name": "水云茶堂阿里山鐵道紅茶-斗六中山店",
+      "addr": "中山路396號",
+      "img": "../pictures/drink/dk07.jpg",
+      "menu": "../pictures/drink/menu/dkmenu07.jpg"
     },
     {
       "seq": 8,
-      "name": "超好喝飲料8",
-      "addr": "大學路三段8號",
-      "img": "../pictures/drink/dk8"
+      "name": "大苑子茶飲專賣店 (斗六中山店)",
+      "addr": "中山路378號",
+      "img": "../pictures/drink/dk08.jpg",
+      "menu": "../pictures/drink/menu/dkmenu08.jpg"
+    },
+    {
+      "seq": 9,
+      "name": "茶湯會(斗六中山店)",
+      "addr": "中山路373號",
+      "img": "../pictures/drink/dk09.jpg",
+      "menu": "../pictures/drink/menu/dkmenu09.jpg"
+    },
+    {
+      "seq": 10,
+      "name": "迷客夏milkshop 雲林斗六店",
+      "addr": "民生南路243號",
+      "img": "../pictures/drink/dk10.jpg",
+      "menu": "../pictures/drink/menu/dkmenu10.jpg"
+    },
+    {
+      "seq": 11,
+      "name": "鮮茶道(斗六雲科店)",
+      "addr": "民生南路260號",
+      "img": "../pictures/drink/dk11.jpg",
+      "menu": "../pictures/drink/menu/dkmenu11.jpg"
+    },
+    {
+      "seq": 12,
+      "name": "細鳳果茶 斗六一號店",
+      "addr": "民生南路236號",
+      "img": "../pictures/drink/dk12.jpg",
+      "menu": "../pictures/drink/menu/dkmenu12.jpg"
+    },
+    {
+      "seq": 13,
+      "name": "斗六花茶大師",
+      "addr": "中山路334號",
+      "img": "../pictures/drink/dk13.jpg",
+      "menu": "../pictures/drink/menu/dkmenu13.jpg"
+    },
+    {
+      "seq": 14,
+      "name": "普通人plain Life 綠豆沙牛奶-斗六店",
+      "addr": "中山路328-3號",
+      "img": "../pictures/drink/dk14.jpg",
+      "menu": "../pictures/drink/menu/dkmenu14.jpg"
+    },
+    {
+      "seq": 15,
+      "name": "50嵐",
+      "addr": "中山路292號",
+      "img": "../pictures/drink/dk15.jpg",
+      "menu": "../pictures/drink/menu/dkmenu15.jpg"
+    },
+    {
+      "seq": 16,
+      "name": "Mr. Wish斗六中山店",
+      "addr": "斗六市中山路288號",
+      "img": "../pictures/drink/dk16.jpg",
+      "menu": "../pictures/drink/menu/dkmenu16.jpg"
+    },
+    {
+      "seq": 17,
+      "name": "蔗一攤中山店",
+      "addr": "中山路328-3號",
+      "img": "../pictures/drink/dk17.jpg",
+      "menu": "../pictures/drink/menu/dkmenu17.jpg"
+    },
+    {
+      "seq": 18,
+      "name": "白巷子-斗六中山店",
+      "addr": "中山路328之8號",
+      "img": "../pictures/drink/dk18.jpg",
+      "menu": "../pictures/drink/menu/dkmenu18.jpg"
+    },
+    {
+      "seq": 19,
+      "name": "黑 古早味紅茶冰冬瓜茶",
+      "addr": "中山路268號",
+      "img": "../pictures/drink/dk19.jpg",
+      "menu": "../pictures/drink/menu/dkmenu19.jpg"
+    },
+    {
+      "seq": 20,
+      "name": "紅茶幫斗六中山店",
+      "addr": "中山路225號",
+      "img": "../pictures/drink/dk20.jpg",
+      "menu": "../pictures/drink/menu/dkmenu20.jpg"
+    },
+    {
+      "seq": 21,
+      "name": "可不可熟成紅茶-雲林斗六店",
+      "addr": "中山路219-1號",
+      "img": "../pictures/drink/dk21.jpg",
+      "menu": "../pictures/drink/menu/dkmenu21.jpg"
+    },
+    {
+      "seq": 22,
+      "name": "麻古茶坊",
+      "addr": "中山路210號",
+      "img": "../pictures/drink/dk22.jpg",
+      "menu": "../pictures/drink/menu/dkmenu22.jpg"
+    },
+    {
+      "seq": 23,
+      "name": "清心福全-斗六",
+      "addr": "雲林路一段33號",
+      "img": "../pictures/drink/dk23.jpg",
+      "menu": "../pictures/drink/menu/dkmenu23.jpg"
+    },
+    {
+      "seq": 24,
+      "name": "老賴茶棧斗六民生店",
+      "addr": "民生路54號",
+      "img": "../pictures/drink/dk24.jpg",
+      "menu": "../pictures/drink/menu/dkmenu24.jpg"
+    },
+    {
+      "seq": 25,
+      "name": "小茶齋斗六店",
+      "addr": "中山路351號",
+      "img": "../pictures/drink/dk25.jpg",
+      "menu": "../pictures/drink/menu/dkmenu25.jpg"
+    },
+    {
+      "seq": 26,
+      "name": "萬波島嶼紅茶 斗六民生店",
+      "addr": "民生南路221號",
+      "img": "../pictures/drink/dk26.jpg",
+      "menu": "../pictures/drink/menu/dkmenu26.jpg"
+    },
+    {
+      "seq": 27,
+      "name": "花好月圓-斗六中山店",
+      "addr": "中山路316號",
+      "img": "../pictures/drink/dk27.jpg",
+      "menu": "../pictures/drink/menu/dkmenu27.jpg"
     }
   ],
   "success": true

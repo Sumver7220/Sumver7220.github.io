@@ -24,6 +24,6 @@ function show(data) {
   document.getElementById("name").innerHTML = arryData[index].name;
   document.getElementById("addr").innerHTML =
     "<span>" + arryData[index].addr + "</span>";
-  document.getElementById("desc").innerHTML = arryData[index].desc;
+  document.getElementById("desc").innerHTML = "電話:" + arryData[index].tel;
   document.getElementById("map").setAttribute("src", mapurl);
 }
