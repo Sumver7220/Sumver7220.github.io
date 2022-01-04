@@ -30,7 +30,7 @@
     {
       "seq": 3,
       "name": "奶味食族",
-      "addr": "雲林縣斗六市龍潭路1-28號",
+      "addr": "龍潭路1-28號",
       "tel": "0911753324",
       "img": "../pictures/breakfast/bf03.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu03.jpg",
@@ -39,7 +39,7 @@
     {
       "seq": 4,
       "name": "傳香飯糰",
-      "addr": "雲林縣斗六市龍潭路1-29號",
+      "addr": "龍潭路1-29號",
       "tel": "055342527",
       "img": "../pictures/breakfast/bf04.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu04.jpg",
@@ -48,7 +48,7 @@
     {
       "seq": 5,
       "name": "弘爺漢堡",
-      "addr": "雲林縣斗六市龍潭路1-29號",
+      "addr": "龍潭路1-29號",
       "tel": "055378852",
       "img": "../pictures/breakfast/bf05.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu05.jpg",
@@ -57,7 +57,7 @@
     {
       "seq": 6,
       "name": "晶品早午餐",
-      "addr": "雲林縣斗六市龍潭路3之17號",
+      "addr": "龍潭路3之17號",
       "tel": "055379522",
       "img": "../pictures/breakfast/bf06.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu06.jpg",
@@ -66,7 +66,7 @@
     {
       "seq": 7,
       "name": "Mr. Smile 微笑早餐園地",
-      "addr": "雲林縣斗六市龍潭路3-16號",
+      "addr": "龍潭路3-16號",
       "tel": "055360563",
       "img": "../pictures/breakfast/bf07.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu07.jpg",
@@ -75,7 +75,7 @@
     {
       "seq": 8,
       "name": "慢食悠活",
-      "addr": "雲林縣斗六市龍潭路5-9號",
+      "addr": "龍潭路5-9號",
       "tel": "055322399",
       "img": "../pictures/breakfast/bf08.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu08.jpg",
@@ -84,7 +84,7 @@
     {
       "seq": 9,
       "name": "大王夯胖",
-      "addr": "雲林縣斗六市龍潭路5-9號",
+      "addr": "龍潭路5-9號",
       "tel": "055360801",
       "img": "../pictures/breakfast/bf09.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu09.jpg",
@@ -93,7 +93,7 @@
     {
       "seq": 10,
       "name": "巨林漢堡",
-      "addr": "雲林縣斗六市龍潭路6號",
+      "addr": "龍潭路6號",
       "tel": "055332430",
       "img": "../pictures/breakfast/bf10.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu10.jpg",
@@ -102,7 +102,7 @@
     {
       "seq": 11,
       "name": "晨間廚房-斗六龍潭店",
-      "addr": "雲林縣斗六市龍潭北路16號",
+      "addr": "龍潭北路16號",
       "tel": "055328208",
       "img": "../pictures/breakfast/bf11.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu11.jpg",
@@ -111,7 +111,7 @@
     {
       "seq": 12,
       "name": "偉恩市場",
-      "addr": "雲林縣斗六市龍潭北路3號1樓",
+      "addr": "龍潭北路3號1樓",
       "tel": "0979470768",
       "img": "../pictures/breakfast/bf12.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu12.jpg",
@@ -120,7 +120,7 @@
     {
       "seq": 13,
       "name": "找夢",
-      "addr": "雲林縣斗六市龍潭北路16-5號1樓",
+      "addr": "龍潭北路16-5號1樓",
       "tel": "0970626729",
       "img": "../pictures/breakfast/bf13.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu13.jpg",
@@ -129,7 +129,7 @@
     {
       "seq": 14,
       "name": "暮香炭烤土司",
-      "addr": "雲林縣斗六市龍潭北路16-10號",
+      "addr": "龍潭北路16-10號",
       "tel": "0900605077",
       "img": "../pictures/breakfast/bf14.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu14.jpg",
@@ -138,7 +138,7 @@
     {
       "seq": 15,
       "name": "濰克早午餐-斗六店",
-      "addr": "雲林縣斗六市龍潭北路16號之13號",
+      "addr": "龍潭北路16號之13號",
       "tel": "055360583",
       "img": "../pictures/breakfast/bf15.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu15.jpg",
@@ -147,7 +147,7 @@
     {
       "seq": 16,
       "name": "瑞咪雅早午餐",
-      "addr": "雲林縣斗六市府文路123號",
+      "addr": "府文路123號",
       "tel": "0965262629",
       "img": "../pictures/breakfast/bf16.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu16.jpg",
@@ -156,7 +156,7 @@
     {
       "seq": 17,
       "name": "早安有喜-斗六店",
-      "addr": "雲林縣斗六市八德路72號",
+      "addr": "八德路72號",
       "tel": "055372766",
       "img": "../pictures/breakfast/bf17.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu17.jpg",
@@ -165,7 +165,7 @@
     {
       "seq": 18,
       "name": "麥味登精緻早午餐",
-      "addr": "雲林縣斗六市八德路27號",
+      "addr": "八德路27號",
       "tel": "055376658",
       "img": "../pictures/breakfast/bf18.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu18.jpg",
@@ -174,7 +174,7 @@
     {
       "seq": 19,
       "name": "亞薩漢堡",
-      "addr": "雲林縣斗六市仁義路5-6號",
+      "addr": "仁義路5-6號",
       "tel": "055375661",
       "img": "../pictures/breakfast/bf19.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu19.jpg",
@@ -183,7 +183,7 @@
     {
       "seq": 20,
       "name": "初炭早午餐",
-      "addr": "雲林縣斗六市中山路605號",
+      "addr": "中山路605號",
       "tel": "0979133270",
       "img": "../pictures/breakfast/bf20.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu20.jpg",
@@ -192,7 +192,7 @@
     {
       "seq": 21,
       "name": "呷尚宝",
-      "addr": "雲林縣斗六市中山路640號",
+      "addr": "中山路640號",
       "tel": "055330762",
       "img": "../pictures/breakfast/bf21.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu21.jpg",
@@ -201,7 +201,7 @@
     {
       "seq": 22,
       "name": "芽果精緻早午餐",
-      "addr": "雲林縣斗六市明德路103-5號",
+      "addr": "明德路103-5號",
       "tel": "055321558",
       "img": "../pictures/breakfast/bf22.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu22.jpg",
@@ -210,7 +210,7 @@
     {
       "seq": 23,
       "name": "鈴蘭愛心早午餐",
-      "addr": "雲林縣斗六市中堅東路12號",
+      "addr": "中堅東路12號",
       "tel": "055374658",
       "img": "../pictures/breakfast/bf23.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu23.jpg",
@@ -219,7 +219,7 @@
     {
       "seq": 24,
       "name": "早安公雞農場晨食",
-      "addr": "雲林縣斗六市鎮南路166號",
+      "addr": "鎮南路166號",
       "tel": "055336719",
       "img": "../pictures/breakfast/bf24.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu24.jpg",
@@ -228,7 +228,7 @@
     {
       "seq": 25,
       "name": "木偶人手作食坊",
-      "addr": "雲林縣斗六市公正街173號",
+      "addr": "公正街173號",
       "tel": "0905336244",
       "img": "../pictures/breakfast/bf25.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu25.jpg",
@@ -237,7 +237,7 @@
     {
       "seq": 26,
       "name": "早安山丘(斗六莊敬店)",
-      "addr": "雲林縣斗六市莊敬路242號",
+      "addr": "莊敬路242號",
       "tel": "055321008",
       "img": "../pictures/breakfast/bf26.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu26.jpg",
@@ -246,7 +246,7 @@
     {
       "seq": 27,
       "name": "A-Bao阿寶早餐莊敬店",
-      "addr": "雲林縣斗六市莊敬路83號",
+      "addr": "莊敬路83號",
       "tel": "055338625",
       "img": "../pictures/breakfast/bf27.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu27.jpg",
@@ -255,7 +255,7 @@
     {
       "seq": 28,
       "name": "滿福軒特級早午餐-斗六店",
-      "addr": "雲林縣斗六市雲林路二段71號",
+      "addr": "雲林路二段71號",
       "tel": "055362458",
       "img": "../pictures/breakfast/bf28.jpg",
       "menu": "../pictures/breakfast/menu/bfmenu28.jpg",
