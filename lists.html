@@ -17,89 +17,7 @@
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
-
-    <script>
-      var restauranttype = "resource/lunch.json";
-      document.onclick = function () {
-        var obj = event.srcElement;
-        if (obj.type == "button") {
-          switch (obj.id) {
-            case "button1":
-              alert(1);
-              break;
-            case "button2":
-              restauranttype = "resource/breakfast.json";
-              refresh();
-              break;
-            case "button3":
-              restauranttype = "resource/lunch.json";
-              refresh();
-              break;
-            case "button4":
-              restauranttype = "resource/night.json";
-              refresh();
-              break;
-            case "button5":
-              restauranttype = "resource/snack.json";
-              refresh();
-              break;
-            case "button6":
-              restauranttype = "resource/drink.json";
-              refresh();
-              break;
-            default:
-              alert("none");
-          }
-        }
-      };
-      $(function () {
-        $.ajax({
-          url: restauranttype,
-          dataType: "json",
-          success: show,
-          error: function () {
-            alert("error");
-          },
-        });
-      });
-      function show(data) {
-        console.log(data);
-        console.log(data.data);
-        let arryData = data.data;
-        arryData.forEach((x) => {
-          document.getElementById("list_content").innerHTML +=
-            '<div class="col mb-5">' +
-            '<div class="card h-60">' +
-            '<img class="card-img-top" src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg" alt="..." /> ' +
-            '<div class="card-body p-4">' +
-            '<div class="text-center">' +
-            '<h5 class="fw-bolder">' +
-            x.name +
-            "</h5>" +
-            x.addr +
-            "</div>" +
-            "</div>" +
-            '<div class="card-footer p-2 pt-0 border-top-0 bg-transparent">' +
-            '<div class="text-center">' +
-            '<a class="btn btn-outline-primary mt-auto" href="detail.html">詳細資料 ></a>' +
-            "</div>" +
-            "</div>" +
-            "</div>" +
-            "</div>";
-        });
-      }
-      function refresh() {
-        document.getElementById("list_content").innerHTML = "";
-        $.ajax({
-          url: restauranttype,
-          dataType: "json",
-          success: show,
-          error: function () {
-            alert("error");
-          },
-        });
-      }
-    </script>
+    <script type="text/javascript" src="js/list.js"></script>
   </head>
 
   <body>
@@ -142,24 +60,18 @@
     </header>
     <section>
       <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-5 mx-5">
-        <a id="button1" class="btn btn-outline-dark btn-lg" type="button"
-          >全部</a
-        >
-        <a id="button2" class="btn btn-outline-dark btn-lg" type="button"
+        <a
+          id="breakfast"
+          class="btn btn-outline-dark btn-lg active"
+          type="button"
           >早餐</a
         >
-        <a id="button3" class="btn btn-outline-dark btn-lg" type="button"
+        <a id="lunch" class="btn btn-outline-dark btn-lg" type="button"
           >午晚餐</a
         >
-        <a id="button4" class="btn btn-outline-dark btn-lg" type="button"
-          >消夜</a
-        >
-        <a id="button5" class="btn btn-outline-dark btn-lg" type="button"
-          >點心</a
-        >
-        <a id="button6" class="btn btn-outline-dark btn-lg" type="button"
-          >飲料</a
-        >
+        <a id="night" class="btn btn-outline-dark btn-lg" type="button">消夜</a>
+        <a id="snack" class="btn btn-outline-dark btn-lg" type="button">點心</a>
+        <a id="drink" class="btn btn-outline-dark btn-lg" type="button">飲料</a>
       </div>
     </section>
     <!-- Section-->
