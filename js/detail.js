@@ -25,5 +25,5 @@ function show(data) {
   document.getElementById("addr").innerHTML =
     "<span>" + arryData[index].addr + "</span>";
   document.getElementById("desc").innerHTML = "電話:" + arryData[index].tel;
-  document.getElementById("map").setAttribute("src", mapurl);
+  document.getElementById("map").setAttribute("src", arryData[index].map);
 }
