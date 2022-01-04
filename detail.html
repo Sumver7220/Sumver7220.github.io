@@ -15,7 +15,9 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/detail.js"></script>
   </head>
   <body>
     <!-- Navigation-->
@@ -66,10 +68,8 @@
             />
           </div>
           <div class="col-md-6">
-            <h1 class="display-5 fw-bolder">超好吃早餐</h1>
-            <div class="fs-5 mb-5">
-              <span>雲林路二段111號</span>
-            </div>
+            <h1 id="name" class="display-5 fw-bolder"></h1>
+            <div id="addr" class="fs-5 mb-5"></div>
             <p class="lead">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Exercitationem rerum dolores quos, hic vitae enim dicta voluptate
@@ -85,12 +85,7 @@
       <div class="container px-4 px-lg-5 mt-5">
         <h2 class="fw-bolder mb-4">Related products</h2>
         <div
-          class="
-            row
-            gx-4 gx-lg-5
-            row-cols-2 row-cols-md-3 row-cols-xl-4
-            justify-content-center
-          "
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
         >
           <div class="col mb-5">
             <div class="card h-100">
@@ -141,13 +136,7 @@
                   <h5 class="fw-bolder">Special Item</h5>
                   <!-- Product reviews-->
                   <div
-                    class="
-                      d-flex
-                      justify-content-center
-                      small
-                      text-warning
-                      mb-2
-                    "
+                    class="d-flex justify-content-center small text-warning mb-2"
                   >
                     <div class="bi-star-fill"></div>
                     <div class="bi-star-fill"></div>
@@ -224,13 +213,7 @@
                   <h5 class="fw-bolder">Popular Item</h5>
                   <!-- Product reviews-->
                   <div
-                    class="
-                      d-flex
-                      justify-content-center
-                      small
-                      text-warning
-                      mb-2
-                    "
+                    class="d-flex justify-content-center small text-warning mb-2"
                   >
                     <div class="bi-star-fill"></div>
                     <div class="bi-star-fill"></div>
