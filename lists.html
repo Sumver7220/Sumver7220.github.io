@@ -15,8 +15,49 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    <script>
+      $(function () {
+        $.ajax({
+          url: "resource/breakfast.json",
+          dataType: "json",
+          success: show,
+          error: function () {
+            alert("error");
+          },
+        });
+      });
+      function show(data) {
+        console.log(data);
+        console.log(data.data);
+        let arryData = data.data;
+        arryData.forEach((x) => {
+          document.getElementById("list_content").innerHTML +=
+            '<div class="col mb-5">' +
+            '<div class="card h-60">' +
+            '<img class="card-img-top" src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg" alt="..." /> ' +
+            '<div class="card-body p-4">' +
+            '<div class="text-center">' +
+            '<h5 class="fw-bolder">' +
+            x.name +
+            "</h5>" +
+            x.addr +
+            "</div>" +
+            "</div>" +
+            '<div class="card-footer p-2 pt-0 border-top-0 bg-transparent">' +
+            '<div class="text-center">' +
+            '<a class="btn btn-outline-primary mt-auto" href="detail.html">詳細資料 ></a>' +
+            "</div>" +
+            "</div>" +
+            "</div>" +
+            "</div>";
+        });
+      }
+    </script>
   </head>
+
   <body>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -81,230 +122,9 @@
     <section class="py-5">
       <div class="container px-4 px-lg-5 mt-5">
         <div
-          class="
-            row
-            gx-4 gx-lg-5
-            row-cols-2 row-cols-md-3 row-cols-xl-4
-            justify-content-center
-          "
-        >
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="detail.html"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-5">
-            <div class="card h-60">
-              <!-- Product image-->
-              <img
-                class="card-img-top"
-                src="https://dummyimage.com/450x450/dee2e6/6c757d.jpg"
-                alt="..."
-              />
-              <!-- Product details-->
-              <div class="card-body p-4">
-                <div class="text-center">
-                  <!-- Product name-->
-                  <h5 class="fw-bolder">超好吃早餐</h5>
-                  <!-- Product price-->
-                  大學路二段111號
-                </div>
-              </div>
-              <!-- Product actions-->
-              <div class="card-footer p-2 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                  <a class="btn btn-outline-primary mt-auto" href="#"
-                    >詳細資料 ></a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          id="list_content"
+          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
+        ></div>
       </div>
     </section>
     <!-- Footer-->
